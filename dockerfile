@@ -6,11 +6,12 @@
 #   Requires bind mounts for homepi_opt & homeserver_backup_homepi   #
 #   To /opt and /mnt/homeserver_backup_homepi respectively           #
 #   updated from dev4 dated 20240311                                 #
+#   updated to zeropi dated 20241123                                 #
 ######################################################################
 
 FROM alpine:latest
 
-RUN mkdir /homepi_opt && mkdir /homeserver_backup_homepi
+RUN mkdir /zeropi_opt && mkdir /homeserver_backup_zeropi
 
 COPY entrypoint.sh .
 RUN chmod +x ./entrypoint.sh
