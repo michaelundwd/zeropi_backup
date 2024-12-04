@@ -4,8 +4,7 @@
 #   /opt folder holds all persistent data for docker containers      #
 #   All file & folder references are as from this docker container   #
 #   Requires bind mounts for homepi_opt & homeserver_backup_homepi   #
-#   To /opt and /mnt/homeserver_backup_homepi respectively           #
-#   updated from dev4 dated 20240311                                 #
+#   To /opt and /mnt/homeserver_backup_zeropi respectively           #
 #   updated to zeropi dated 20241123                                 #
 ######################################################################
 
